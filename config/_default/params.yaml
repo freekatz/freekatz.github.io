@@ -8,7 +8,7 @@ appearance:
   theme_day: light
   theme_night: persodark
   font: custom_font
-  font_size: b
+  font_size: M
 
 # SEO
 
@@ -38,6 +38,9 @@ header:
     show_search: false
     highlight_active_link: true
 
+custom:
+  background: img/footer.png
+
 # Site footer
 
 footer:
@@ -45,9 +48,9 @@ footer:
     notice: '© {year} Jianhui Zhang. This work is licensed under {license}.'
     license:
       enable: true
-      allow_derivatives: true
+      allow_derivatives: false
       share_alike: true
-      allow_commercial: true
+      allow_commercial: false
 
 # Localization
 
@@ -73,7 +76,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/simongravelle/simongravelle.github.io'
+    url: 'https://github.com/freekatz/freekatz.github.io'
     content_dir: content
     branch: master
   avatar:

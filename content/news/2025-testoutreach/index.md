@@ -1,6 +1,6 @@
 ---
-date: 2025-02-27
-publishDate: 2025-02-27
+date: 2025-02-01
+publishDate: 2025-02-01
 external_link: ""
 image:
   caption: Fediverse
@@ -8,8 +8,8 @@ image:
 slides: 
 summary:
 tags:
-- Research
-title: One paper (CamPoint) was accepted by CVPR 2025
+- Outreach
+title: A test outreach new
 #links:
 #  - icon_pack: fas
 #    icon: scroll

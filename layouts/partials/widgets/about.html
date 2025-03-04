@@ -17,10 +17,9 @@
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
-<!-- Uncomment to add a footer image
 <div>
-  <a class="background-img" href="#img1"><img id="img1" src="img/footer.png" /></a>
-</div>-->
+  <a class="background-img" href="#img1"><img id="img1" src={{site.Params.custom.background}} /></a>
+</div>
 
 <div class="row">
   <div class="col-12 col-lg-4">
@@ -95,9 +94,45 @@
 
    <div class="article-style">
       <div class="main-content">{{ $person_page.Content }}</div>
-      <!-- <a class="btn btn-outline-primary btn-page-header btn-download" href="files/cv.pdf" target="_blank" rel="noopener">CV</a> -->
     </div>
 
+    <div class="row">
+
+      {{ with $person.interests }}
+      <div class="col-md-5">
+        <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
+        <ul class="ul-interests mb-0">
+          {{ range . }}
+          <li>{{ . | markdownify | emojify }}</li>
+          {{ end }}
+        </ul>
+       <a class="btn btn-outline-primary btn-page-header btn-download" href="files/admin/resume.pdf" target="_blank" rel="noopener">
+         <i class="fas fa-scroll" style="font-size: 1em">
+           Download Resume
+         </i>
+       </a>
+
+      </div>
+      {{ end }}
+
+      {{ with $person.education }}
+      <div class="col-md-7">
+        <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
+        <ul class="ul-edu fa-ul mb-0">
+          {{ range . }}
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">{{ .area }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+    </div>
   </div>
 
   </div>

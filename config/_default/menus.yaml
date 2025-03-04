@@ -7,9 +7,9 @@ main:
   - name: Biography
     url: /
     weight: 10
-  - name: News
-    url: /#news
-    weight: 11
   - name: Publications
     url: /#publications
+    weight: 11
+  - name: News
+    url: /#news
     weight: 12

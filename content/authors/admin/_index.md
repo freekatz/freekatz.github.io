@@ -10,33 +10,28 @@ name_pronunciation: Zhāng Jiàn Huī
 first_name: Jianhui
 last_name: Zhang
 
-
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: 
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-#  - name: 
-#    url:
+## TODO
+## Role/position/tagline
+#role: Researcher
+#
+## Organizations/Affiliations to display in Biography blox
+#organizations:
+#  - name: MTXAI Team
+#    url: https://github.com/MTXAI
 
 # Short bio (displayed in user profile at end of posts)
 bio: A student.
 
-## Interests to show in About widget
-#interests:
-#  - Computer Vision
-#  - Embodied AI
-
+# Interests to show in About widget
+interests:
+  - Computer Vision
+  - Embodied AI
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -50,9 +45,6 @@ social:
   - icon: weixin
     icon_pack: fab
     link: files/admin/wechat.jpg
-  - icon: zhihu
-    icon_pack: fab
-    link: https://www.zhihu.com/people/zjh567
   - icon: bilibili
     icon_pack: fab
     link: https://space.bilibili.com/259976518
@@ -61,13 +53,13 @@ social:
     link: https://github.com/freekatz
     display:
       header: true
-    label: Follow me on Mastodon
+  - icon: zhihu
+    icon_pack: fab
+    link: https://www.zhihu.com/people/zjh567
+#    label: Follow me on Mastodon
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/
-  - icon: cv
-    icon_pack: ai
-    link: files/admin/resume.pdf
 
 # Education to show in About widget
 education:
@@ -216,14 +208,13 @@ skills:
 
 ---
 
-### About me ##
+## **About Me** ##
 
-Hi, I am Jianhui Zhang (Chinese name 张建辉), currently a research assistant at the University of Science and Technology of China. Previously, I served as a backend development engineer at ByteDance. I hold a B.S. from Chongqing University and an M.E. from Southwest University, supervised by [Prof. Zhiming Liu](https://dblp.org/pid/l/ZhimingLiu1.html).
+  
+Hi, I'm Jianhui Zhang (Chinese name 张建辉), currently a research assistant at the University of Science and Technology of China. Previously, I served as a database engineer at ByteDance. I hold a B.S. from Chongqing University and an M.E. from Southwest University, supervised by [Prof. Zhiming Liu](https://dblp.org/pid/l/ZhimingLiu1.html).
 
-### Reseatch interests ##
-  - Computer Vision
-  - Embodied AI, especially on 3D Vision
+### **Current Status** ###
 
-### Notify ##
+  
+<a class="link" style="font: bold;">I am actively looking for PhD opportunities.</a>
 
-> I am actively looking for PhD opportunities.
