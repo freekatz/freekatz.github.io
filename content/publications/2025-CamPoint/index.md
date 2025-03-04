@@ -22,18 +22,18 @@ publishDate: '2025-02-27T08:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['paper-conference']  # paper-conference, article-journal, preprint
+tags:
+- paper-conference
+- Computer Vision
 # Publication name and optional abbreviated publication name.
 publication: In *The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025*
 publication_short: In *CVPR 2025*
 abstract: ''
 # Summary. An optional shortened abstract.
 summary: 
-tags:
-  - Computer Vision
 # Display this page in the Featured widget?
 featured: true
-
 # TODO
 links:
   - icon_pack: fas

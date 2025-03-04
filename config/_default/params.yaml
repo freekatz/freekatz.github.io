@@ -84,11 +84,13 @@ features:
     shape: circle
   comment:
     provider: 'giscus'
+    # https://giscus.app/zh-CN
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'freekatz/freekatz.github.io'
+      repo_id: 'R_kgDOOCgm2A'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOOCgm2M4Cni9M'
+      theme: preferred_color_scheme
   search:
     provider: wowchemy
     algolia:

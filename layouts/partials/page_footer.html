@@ -16,9 +16,10 @@ $(document).ready(function () {
 
 {{ partial "page_edit" . }}
 {{ partial "tags" . }}
-<!-- {{ partial "components/page_sharer" . }} <!-- Uncomment for facebook/twitter etc. share button  -->
+<!-- {{ partial "components/page_sharer" . }}-->
+
 {{ partial "page_author" . }}
-{{ partial "comments" . }}
+{{ partial "comments/giscus" . }}
 
 {{ if .Params.pager }}
 <div class="article-widget">
