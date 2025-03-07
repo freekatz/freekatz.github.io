@@ -211,7 +211,7 @@ skills:
 ## **About Me** ##
 
   
-Hi, I'm Jianhui Zhang (Chinese name 张建辉), currently a research assistant at the University of Science and Technology of China. Previously, I served as a database engineer at ByteDance. I hold a B.S. from Chongqing University and an M.E. from Southwest University, supervised by [Prof. Zhiming Liu](https://dblp.org/pid/l/ZhimingLiu1.html).
+Hi, I am Jianhui Zhang (Chinese name 张建辉), currently a research assistant at the University of Science and Technology of China. Previously, I served as a database engineer at ByteDance. I hold a B.S. from Chongqing University and an M.E. from Southwest University, supervised by [Prof. Zhiming Liu](https://dblp.org/pid/l/ZhimingLiu1.html).
 
 ### **Current Status** ###
 
