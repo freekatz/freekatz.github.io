@@ -55,7 +55,7 @@ links:
   - icon_pack: fas
     icon: face-smile
     name: Model Card
-    url: '/#/'
+    url: 'https://huggingface.co/MTXAI/CamPoint'
 image:
   caption: Fediverse
   focal_point: Smart
