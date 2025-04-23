@@ -9,3 +9,5 @@
 ./static/files/resume/resume*.log
 
 .idea
+.DS_Store
+.vscode
