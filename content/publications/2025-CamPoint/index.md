@@ -39,11 +39,11 @@ links:
   - icon_pack: fas
     icon: scroll
     name: Website
-    url: '/#/'
+    url: '/publications/2025-campoint.html'
   - icon_pack: fas
     icon: file-pdf
     name: Paper
-    url: 'https://arxiv.org/'
+    url: 'publications/2025-campoint/CamPoint_CameraReady.pdf'
   - icon_pack: fab
     icon: github
     name: Code
