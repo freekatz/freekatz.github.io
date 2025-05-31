@@ -30,8 +30,8 @@ bio: A student.
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
-  - Embodied AI
+  - Compute Vision, 3D Vision
+  - Unmanned Aircraft System
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -63,11 +63,11 @@ social:
 
 # Education to show in About widget
 education:
-#  - area: PhD Artificial Intelligence
-#    institution: Stanford University
-#    date_start: 2016-01-01
-#    date_end: 2020-12-31
-#    summary: |
+  - area: PhD Control Science and Engineering
+    institution: Shanghai Jiao Tong University
+    date_start: 2025-09-01
+    date_end: 
+    summary: |
 #      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 #    button:
 #      text: 'Read Thesis'
@@ -211,10 +211,10 @@ skills:
 ## **About Me** ##
 
   
-Hi, I am Jianhui Zhang (Chinese name 张建辉), currently a research assistant at the University of Science and Technology of China. Previously, I served as a database engineer at ByteDance. I hold a B.S. from Chongqing University and an M.E. from Southwest University, supervised by [Prof. Zhiming Liu](https://dblp.org/pid/l/ZhimingLiu1.html).
+Hi, I am Jianhui Zhang (Chinese name 张建辉), currently a first-year doctoral student at Shanghai Jiao Tong University. Previously, I served as a database engineer at ByteDance. I hold a B.S. from Chongqing University and an M.E. from Southwest University.
 
 ### **Current Status** ###
 
   
-<a class="link" style="font: bold;">I am actively looking for PhD opportunities.</a>
+<a class="link" style="font: bold;">I am preparing to start a business and look forward to making more partners.</a>
 
